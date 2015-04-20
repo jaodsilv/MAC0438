@@ -1,1 +1,8 @@
 http://paca.ime.usp.br/pluginfile.php/71225/mod_resource/content/4/ep1.pdf
+
+USO:
+
+$ make all
+$ ./ominium [debug]
+
+Em seguida o programa vai pedir d, n e modo(u/v)
