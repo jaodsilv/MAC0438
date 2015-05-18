@@ -1,0 +1,28 @@
+Para instalar as depencias basta seguir as intruções.
+
+1 - Rode o Script "installDeps" se estiver usando linux com terminal bash/zsh.
+
+OU
+
+1 - Baixe a versão do compilar para sua máquina em https://golang.org/dl/
+2 - Siga as intruções em http://golang.org/doc/install
+
+OU
+
+1 - Baixe a versão do compilar para sua máquina em https://golang.org/dl/
+2 - Descompacte para "/usr/local": tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
+3 - adicione "export PATH=$PATH:/usr/local/go/bin" ao seu .profile
+
+n - adicione "export GOPATH=$PASTA_ONDE_ESTA_O_EP_DO_JOAO" ao seu .profile, a mesma que se encontra este arquivo.
+
+
+
+Para compilar:
+
+$ go install github.com/jaodsilv/ep2
+
+
+
+Para executar:
+
+$ $GOPATH/bin/ep2

@@ -1,8 +1,8 @@
-http://paca.ime.usp.br/pluginfile.php/71225/mod_resource/content/4/ep1.pdf
-
 USO:
 
 $ make all
 $ ./ominium [debug]
 
-Em seguida o programa vai pedir d, n e modo(u/v)
+Em seguida o programa vai pedir d, n e modo(u/v) da entrada padrão.
+
+Foram feitos testes para as entradas que seguem em anexo.

@@ -1,0 +1,214 @@
+Debug set to TRUE
+Entre o tamanho da pista(m), número de ciclistas e o modo(u/v)
+
+------------------------------------------
+Tempo: 0ms
+
+1º: The Gruesome Twosome - Ativo - 1ª volta - v: 25km/h
+2º: Professor Pat Pending - Ativo - 1ª volta - v: 25km/h
+3º: The Slag Brothers - Ativo - 1ª volta - v: 25km/h
+4º: The Red Max - Ativo - 1ª volta - v: 25km/h
+5º: Dick Dastardly and Muttley - Ativo - 1ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 14400ms
+
+1º: The Gruesome Twosome - Ativo - 1ª volta - v: 25km/h
+2º: Professor Pat Pending - Ativo - 1ª volta - v: 25km/h
+3º: The Slag Brothers - Ativo - 1ª volta - v: 25km/h
+4º: The Red Max - Ativo - 1ª volta - v: 25km/h
+5º: Dick Dastardly and Muttley - Ativo - 1ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 28800ms
+
+1º: The Gruesome Twosome - Ativo - 1ª volta - v: 25km/h
+2º: Professor Pat Pending - Ativo - 1ª volta - v: 25km/h
+3º: The Slag Brothers - Ativo - 1ª volta - v: 25km/h
+4º: The Red Max - Ativo - 1ª volta - v: 25km/h
+5º: Dick Dastardly and Muttley - Ativo - 1ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 2
+
+3º: The Slag Brothers
+4º: The Red Max
+5º: Dick Dastardly and Muttley
+
+------------------------------------------
+Tempo: 43200ms
+
+1º: The Gruesome Twosome - Ativo - 2ª volta - v: 50km/h
+2º: The Red Max - Ativo - 2ª volta - v: 50km/h
+3º: Dick Dastardly and Muttley - Ativo - 2ª volta - v: 50km/h
+4º: Professor Pat Pending - Ativo - 2ª volta - v: 25km/h
+5º: The Slag Brothers - Ativo - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 3
+
+3º: Dick Dastardly and Muttley
+4º: Professor Pat Pending
+Eliminado: The Slag Brothers
+
+------------------------------------------
+Tempo: 57600ms
+
+1º: The Gruesome Twosome - Ativo - 3ª volta - v: 25km/h
+2º: The Red Max - Ativo - 3ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Ativo - 3ª volta - v: 25km/h
+4º: Professor Pat Pending - Ativo - 2ª volta - v: 25km/h
+5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 72000ms
+
+1º: The Gruesome Twosome - Ativo - 3ª volta - v: 25km/h
+2º: The Red Max - Ativo - 3ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Ativo - 3ª volta - v: 25km/h
+4º: Professor Pat Pending - Ativo - 3ª volta - v: 25km/h
+5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 86400ms
+
+1º: The Gruesome Twosome - Ativo - 3ª volta - v: 25km/h
+2º: The Red Max - Ativo - 3ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Ativo - 3ª volta - v: 25km/h
+4º: Professor Pat Pending - Ativo - 3ª volta - v: 25km/h
+5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 4
+
+2º: The Red Max
+3º: Dick Dastardly and Muttley
+4º: Professor Pat Pending
+
+------------------------------------------
+Tempo: 100800ms
+
+1º: The Red Max - Ativo - 4ª volta - v: 50km/h
+2º: The Gruesome Twosome - Ativo - 4ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Ativo - 4ª volta - v: 25km/h
+4º: Professor Pat Pending - Ativo - 3ª volta - v: 25km/h
+5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 5
+
+2º: The Gruesome Twosome
+3º: Dick Dastardly and Muttley
+Eliminado: Professor Pat Pending
+
+------------------------------------------
+Tempo: 115200ms
+
+1º: The Red Max - Ativo - 5ª volta - v: 25km/h
+2º: The Gruesome Twosome - Ativo - 4ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Ativo - 4ª volta - v: 25km/h
+4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 129600ms
+
+1º: The Red Max - Ativo - 5ª volta - v: 25km/h
+2º: The Gruesome Twosome - Ativo - 5ª volta - v: 50km/h
+3º: Dick Dastardly and Muttley - Ativo - 5ª volta - v: 50km/h
+4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 6
+
+1º: The Gruesome Twosome
+2º: The Red Max
+3º: Dick Dastardly and Muttley
+
+------------------------------------------
+Tempo: 144000ms
+
+1º: The Gruesome Twosome - Ativo - 6ª volta - v: 25km/h
+2º: The Red Max - Ativo - 6ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Ativo - 6ª volta - v: 25km/h
+4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 158400ms
+
+1º: The Gruesome Twosome - Ativo - 6ª volta - v: 25km/h
+2º: The Red Max - Ativo - 6ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Ativo - 6ª volta - v: 25km/h
+4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 172800ms
+
+1º: The Gruesome Twosome - Ativo - 6ª volta - v: 25km/h
+2º: The Red Max - Ativo - 6ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Ativo - 6ª volta - v: 25km/h
+4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 7
+
+1º: The Gruesome Twosome
+2º: The Red Max
+Eliminado: Dick Dastardly and Muttley
+
+------------------------------------------
+Tempo: 187200ms
+
+1º: The Red Max - Ativo - 7ª volta - v: 50km/h
+2º: The Gruesome Twosome - Ativo - 7ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Eliminado - 6ª volta - v: 25km/h
+4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 8
+
+1º: The Red Max
+2º: The Gruesome Twosome
+
+------------------------------------------
+Tempo: 201600ms
+
+1º: The Red Max - Ativo - 8ª volta - v: 50km/h
+2º: The Gruesome Twosome - Ativo - 7ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Eliminado - 6ª volta - v: 25km/h
+4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 9
+
+1º: The Red Max
+Eliminado: The Gruesome Twosome
+
+------------------------------------------
+Tempo: 215856ms
+
+MEDALHA DE OURO
+1º: The Red Max - 9ª volta
+
+MEDALHA DE PRATA
+2º: The Gruesome Twosome - 8ª volta
+
+MEDALHA DE BRONZE
+3º: Dick Dastardly and Muttley - 6ª volta
+
+4º: Professor Pat Pending - 4ª volta
+5º: The Slag Brothers - 2ª volta

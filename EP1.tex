@@ -1,0 +1,404 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Example: Project Report
+%
+% Source: http://www.howtotex.com
+%
+% Feel free to distribute this example, but please keep the referral
+% to howtotex.com
+% Date: March 2011 
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+% If you're new to LaTeX, the wikibook is a great place to start:
+% http://en.wikibooks.org/wiki/LaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Edit the title below to update the display in My Documents
+%\title{Project Report}
+%
+%%% Preamble
+\documentclass[paper=a4, fontsize=11pt]{scrartcl}
+\usepackage[utf8x]{inputenc}
+
+\usepackage{fourier}
+
+\usepackage[portuguese]{babel}															% English language/hyphenation
+\usepackage[protrusion=true,expansion=true]{microtype}	
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[pdftex]{graphicx}	
+\usepackage{url}
+
+
+%%% Custom sectioning
+\usepackage{sectsty}
+\allsectionsfont{\centering \normalfont\scshape}
+
+
+%%% Custom headers/footers (fancyhdr package)
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}											% No page header
+\fancyfoot[L]{}											% Empty 
+\fancyfoot[C]{}											% Empty
+\fancyfoot[R]{\thepage}									% Pagenumbering
+\renewcommand{\headrulewidth}{0pt}			% Remove header underlines
+\renewcommand{\footrulewidth}{0pt}				% Remove footer underlines
+\setlength{\headheight}{13.6pt}
+
+
+%%% Equation and float numbering
+\numberwithin{equation}{section}		% Equationnumbering: section.eq#
+\numberwithin{figure}{section}			% Figurenumbering: section.fig#
+\numberwithin{table}{section}				% Tablenumbering: section.tab#
+
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+		%\vspace{-1in} 	
+		\usefont{OT1}{bch}{b}{n}
+		\normalfont \normalsize \textsc{Instituto de Matemática e Estatística\\Universidade de São Paulo} \\ [25pt]
+		\horrule{0.5pt} \\[0.4cm]
+		\huge EP1 - MAC0438 \\
+		\horrule{2pt} \\[0.5cm]
+}
+\author{
+		\normalfont 								\normalsize
+        João Marco Maciel da Silva 7577598\\
+        \normalsize
+        \today
+}
+\date{}
+
+
+%%% Begin document
+\begin{document}
+\maketitle
+\section{Testes}
+Os testes feitos são os arquivos em anexo com o EP entradax.\\
+Entradax, com x de 1 a 8, obtiveram sucesso e estão apresentados nos arquivos saidax respectiva.\\
+Entrada9 não concluiu a operação por excesso de threads criadas.\\
+O arquivo dumb contém uma entrada que foi utilizada apenas para depuração.\\
+Os arquivos saidax-debug, com x de 7 a 8, foram excluídos do envio por pussuirem tamanho acima do limite do PACA.\\
+
+\section{Teste 1 - d=250, n=5, modo = u}
+Versão integral do arquivo \textit{saida1}.
+\begin{quote}
+Entre o tamanho da pista(m), número de ciclistas e o modo(u/v)
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 2
+\\
+\\3º: The Slag Brothers
+\\4º: Professor Pat Pending
+\\5º: The Gruesome Twosome
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 3
+\\
+\\3º: The Slag Brothers
+\\4º: Professor Pat Pending
+\\Eliminado: The Gruesome Twosome
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 4
+\\
+\\2º: Dick Dastardly and Muttley
+\\3º: The Slag Brothers
+\\4º: Professor Pat Pending
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 5
+\\
+\\2º: Dick Dastardly and Muttley
+\\3º: The Slag Brothers
+\\Eliminado: Professor Pat Pending
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 6
+\\
+\\1º: The Red Max
+\\2º: Dick Dastardly and Muttley
+\\3º: The Slag Brothers
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 7
+\\
+\\1º: The Red Max
+\\2º: Dick Dastardly and Muttley
+\\Eliminado: The Slag Brothers
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 8
+\\
+\\1º: The Red Max
+\\2º: Dick Dastardly and Muttley
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 9
+\\
+\\1º: The Red Max
+\\Eliminado: Dick Dastardly and Muttley
+\\
+\\------------------------------------------
+\\Tempo: 143712ms
+\\
+\\MEDALHA DE OURO
+\\1º: The Red Max - 9ª volta
+\\
+\\MEDALHA DE PRATA
+\\2º: Dick Dastardly and Muttley - 8ª volta
+\\
+\\MEDALHA DE BRONZE
+\\3º: The Slag Brothers - 6ª volta
+\\
+\\4º: Professor Pat Pending - 4ª volta
+\\5º: The Gruesome Twosome - 2ª volta
+\\
+\end{quote}
+
+\section{Teste  - d=250, n=5, modo = v}
+Arquivo \textit{saida2-debug} na integra. Exemplo interessante pois \textit{The Red Max}, que começou em 4º chegou até a primeira colocação.
+
+\begin{quote}
+Debug set to TRUE
+\\Entre o tamanho da pista(m), número de ciclistas e o modo(u/v)
+\\
+\\------------------------------------------
+\\Tempo: 0ms
+\\
+\\1º: The Gruesome Twosome - Ativo - 1ª volta - v: 25km/h
+\\2º: Professor Pat Pending - Ativo - 1ª volta - v: 25km/h
+\\3º: The Slag Brothers - Ativo - 1ª volta - v: 25km/h
+\\4º: The Red Max - Ativo - 1ª volta - v: 25km/h
+\\5º: Dick Dastardly and Muttley - Ativo - 1ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\Tempo: 14400ms
+\\
+\\1º: The Gruesome Twosome - Ativo - 1ª volta - v: 25km/h
+\\2º: Professor Pat Pending - Ativo - 1ª volta - v: 25km/h
+\\3º: The Slag Brothers - Ativo - 1ª volta - v: 25km/h
+\\4º: The Red Max - Ativo - 1ª volta - v: 25km/h
+\\5º: Dick Dastardly and Muttley - Ativo - 1ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\Tempo: 28800ms
+\\
+\\1º: The Gruesome Twosome - Ativo - 1ª volta - v: 25km/h
+\\2º: Professor Pat Pending - Ativo - 1ª volta - v: 25km/h
+\\3º: The Slag Brothers - Ativo - 1ª volta - v: 25km/h
+\\4º: The Red Max - Ativo - 1ª volta - v: 25km/h
+\\5º: Dick Dastardly and Muttley - Ativo - 1ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 2
+\\
+\\3º: The Slag Brothers
+\\4º: The Red Max
+\\5º: Dick Dastardly and Muttley
+\\
+\\------------------------------------------
+\\Tempo: 43200ms
+\\
+\\1º: The Gruesome Twosome - Ativo - 2ª volta - v: 50km/h
+\\2º: The Red Max - Ativo - 2ª volta - v: 50km/h
+\\3º: Dick Dastardly and Muttley - Ativo - 2ª volta - v: 50km/h
+\\4º: Professor Pat Pending - Ativo - 2ª volta - v: 25km/h
+\\5º: The Slag Brothers - Ativo - 2ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 3
+\\
+\\3º: Dick Dastardly and Muttley
+\\4º: Professor Pat Pending
+\\Eliminado: The Slag Brothers
+\\
+\\------------------------------------------
+\\Tempo: 57600ms
+\\
+\\1º: The Gruesome Twosome - Ativo - 3ª volta - v: 25km/h
+\\2º: The Red Max - Ativo - 3ª volta - v: 25km/h
+\\3º: Dick Dastardly and Muttley - Ativo - 3ª volta - v: 25km/h
+\\4º: Professor Pat Pending - Ativo - 2ª volta - v: 25km/h
+\\5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\Tempo: 72000ms
+\\
+\\1º: The Gruesome Twosome - Ativo - 3ª volta - v: 25km/h
+\\2º: The Red Max - Ativo - 3ª volta - v: 25km/h
+\\3º: Dick Dastardly and Muttley - Ativo - 3ª volta - v: 25km/h
+\\4º: Professor Pat Pending - Ativo - 3ª volta - v: 25km/h
+\\5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\Tempo: 86400ms
+\\
+\\1º: The Gruesome Twosome - Ativo - 3ª volta - v: 25km/h
+\\2º: The Red Max - Ativo - 3ª volta - v: 25km/h
+\\3º: Dick Dastardly and Muttley - Ativo - 3ª volta - v: 25km/h
+\\4º: Professor Pat Pending - Ativo - 3ª volta - v: 25km/h
+\\5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 4
+\\
+\\2º: The Red Max
+\\3º: Dick Dastardly and Muttley
+\\4º: Professor Pat Pending
+\\
+\\------------------------------------------
+\\Tempo: 100800ms
+\\
+\\1º: The Red Max - Ativo - 4ª volta - v: 50km/h
+\\2º: The Gruesome Twosome - Ativo - 4ª volta - v: 25km/h
+\\3º: Dick Dastardly and Muttley - Ativo - 4ª volta - v: 25km/h
+\\4º: Professor Pat Pending - Ativo - 3ª volta - v: 25km/h
+\\5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 5
+\\
+\\2º: The Gruesome Twosome
+\\3º: Dick Dastardly and Muttley
+\\Eliminado: Professor Pat Pending
+\\
+\\------------------------------------------
+\\Tempo: 115200ms
+\\
+\\1º: The Red Max - Ativo - 5ª volta - v: 25km/h
+\\2º: The Gruesome Twosome - Ativo - 4ª volta - v: 25km/h
+\\3º: Dick Dastardly and Muttley - Ativo - 4ª volta - v: 25km/h
+\\4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+\\5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\Tempo: 129600ms
+\\
+\\1º: The Red Max - Ativo - 5ª volta - v: 25km/h
+\\2º: The Gruesome Twosome - Ativo - 5ª volta - v: 50km/h
+\\3º: Dick Dastardly and Muttley - Ativo - 5ª volta - v: 50km/h
+\\4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+\\5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 6
+\\
+\\1º: The Gruesome Twosome
+\\2º: The Red Max
+\\3º: Dick Dastardly and Muttley
+\\
+\\------------------------------------------
+\\Tempo: 144000ms
+\\
+\\1º: The Gruesome Twosome - Ativo - 6ª volta - v: 25km/h
+\\2º: The Red Max - Ativo - 6ª volta - v: 25km/h
+\\3º: Dick Dastardly and Muttley - Ativo - 6ª volta - v: 25km/h
+\\4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+\\5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\Tempo: 158400ms
+\\
+\\1º: The Gruesome Twosome - Ativo - 6ª volta - v: 25km/h
+\\2º: The Red Max - Ativo - 6ª volta - v: 25km/h
+\\3º: Dick Dastardly and Muttley - Ativo - 6ª volta - v: 25km/h
+\\4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+\\5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\Tempo: 172800ms
+\\
+\\1º: The Gruesome Twosome - Ativo - 6ª volta - v: 25km/h
+\\2º: The Red Max - Ativo - 6ª volta - v: 25km/h
+\\3º: Dick Dastardly and Muttley - Ativo - 6ª volta - v: 25km/h
+\\4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+\\5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 7
+\\
+\\1º: The Gruesome Twosome
+\\2º: The Red Max
+\\Eliminado: Dick Dastardly and Muttley
+\\
+\\------------------------------------------
+\\Tempo: 187200ms
+\\
+\\1º: The Red Max - Ativo - 7ª volta - v: 50km/h
+\\2º: The Gruesome Twosome - Ativo - 7ª volta - v: 25km/h
+\\3º: Dick Dastardly and Muttley - Eliminado - 6ª volta - v: 25km/h
+\\4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+\\5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 8
+\\
+\\1º: The Red Max
+\\2º: The Gruesome Twosome
+\\
+\\------------------------------------------
+\\Tempo: 201600ms
+\\
+\\1º: The Red Max - Ativo - 8ª volta - v: 50km/h
+\\2º: The Gruesome Twosome - Ativo - 7ª volta - v: 25km/h
+\\3º: Dick Dastardly and Muttley - Eliminado - 6ª volta - v: 25km/h
+\\4º: Professor Pat Pending - Eliminado - 4ª volta - v: 25km/h
+\\5º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+\\
+\\------------------------------------------
+\\
+\\3 últimos da volta 9
+\\
+\\1º: The Red Max
+\\Eliminado: The Gruesome Twosome
+\\
+\\------------------------------------------
+\\Tempo: 215856ms
+\\
+\\MEDALHA DE OURO
+\\1º: The Red Max - 9ª volta
+\\
+\\MEDALHA DE PRATA
+\\2º: The Gruesome Twosome - 8ª volta
+\\
+\\MEDALHA DE BRONZE
+\\3º: Dick Dastardly and Muttley - 6ª volta
+\\
+\\4º: Professor Pat Pending - 4ª volta
+\\5º: The Slag Brothers - 2ª volta
+\\
+\end{quote}
+
+%%% End document
+\end{document}
+
+%%% End document
+\end{document}

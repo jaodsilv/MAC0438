@@ -1,0 +1,8 @@
+USO:
+
+$ make all
+$ ./ominium [debug]
+
+Em seguida o programa vai pedir d, n e modo(u/v) da entrada padrão.
+
+Foram feitos testes para as entradas que seguem em anexo.

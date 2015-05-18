@@ -1,0 +1,668 @@
+Debug set to TRUE
+Entre o tamanho da pista(m), número de ciclistas e o modo(u/v)
+
+------------------------------------------
+Tempo: 0ms
+
+1º: The Ant Hill Mob - Ativo - 1ª volta - v: 25km/h
+2º: Dick Dastardly and Muttley - Ativo - 1ª volta - v: 25km/h
+3º: Penelope Pitstop - Ativo - 1ª volta - v: 25km/h
+4º: Professor Pat Pending - Ativo - 1ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Ativo - 1ª volta - v: 25km/h
+6º: The Gruesome Twosome - Ativo - 1ª volta - v: 25km/h
+7º: Peter Perfect - Ativo - 1ª volta - v: 25km/h
+8º: Lazy Luke and Blubber Bear - Ativo - 1ª volta - v: 25km/h
+9º: The Red Max - Ativo - 1ª volta - v: 25km/h
+10º: The Slag Brothers - Ativo - 1ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 14400ms
+
+1º: The Ant Hill Mob - Ativo - 1ª volta - v: 25km/h
+2º: Dick Dastardly and Muttley - Ativo - 1ª volta - v: 25km/h
+3º: Penelope Pitstop - Ativo - 1ª volta - v: 25km/h
+4º: Professor Pat Pending - Ativo - 1ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Ativo - 1ª volta - v: 25km/h
+6º: The Gruesome Twosome - Ativo - 1ª volta - v: 25km/h
+7º: Peter Perfect - Ativo - 1ª volta - v: 25km/h
+8º: Lazy Luke and Blubber Bear - Ativo - 1ª volta - v: 25km/h
+9º: The Red Max - Ativo - 1ª volta - v: 25km/h
+10º: The Slag Brothers - Ativo - 1ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 28800ms
+
+1º: The Ant Hill Mob - Ativo - 1ª volta - v: 25km/h
+2º: Dick Dastardly and Muttley - Ativo - 1ª volta - v: 25km/h
+3º: Penelope Pitstop - Ativo - 1ª volta - v: 25km/h
+4º: Professor Pat Pending - Ativo - 1ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Ativo - 1ª volta - v: 25km/h
+6º: The Gruesome Twosome - Ativo - 1ª volta - v: 25km/h
+7º: Peter Perfect - Ativo - 1ª volta - v: 25km/h
+8º: Lazy Luke and Blubber Bear - Ativo - 1ª volta - v: 25km/h
+9º: The Red Max - Ativo - 1ª volta - v: 25km/h
+10º: The Slag Brothers - Ativo - 1ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 2
+
+8º: Lazy Luke and Blubber Bear
+9º: The Red Max
+10º: The Slag Brothers
+
+------------------------------------------
+Tempo: 43200ms
+
+1º: Dick Dastardly and Muttley - Ativo - 2ª volta - v: 50km/h
+2º: Sergeant Blast and Private Meekly - Ativo - 2ª volta - v: 50km/h
+3º: The Ant Hill Mob - Ativo - 2ª volta - v: 25km/h
+4º: The Gruesome Twosome - Ativo - 2ª volta - v: 50km/h
+5º: Penelope Pitstop - Ativo - 2ª volta - v: 25km/h
+6º: Peter Perfect - Ativo - 2ª volta - v: 50km/h
+7º: Professor Pat Pending - Ativo - 2ª volta - v: 25km/h
+8º: Lazy Luke and Blubber Bear - Ativo - 2ª volta - v: 50km/h
+9º: The Red Max - Ativo - 2ª volta - v: 50km/h
+10º: The Slag Brothers - Ativo - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 57600ms
+
+1º: Dick Dastardly and Muttley - Ativo - 2ª volta - v: 50km/h
+2º: Sergeant Blast and Private Meekly - Ativo - 2ª volta - v: 50km/h
+3º: The Gruesome Twosome - Ativo - 2ª volta - v: 50km/h
+4º: Peter Perfect - Ativo - 2ª volta - v: 50km/h
+5º: Lazy Luke and Blubber Bear - Ativo - 2ª volta - v: 50km/h
+6º: The Red Max - Ativo - 2ª volta - v: 50km/h
+7º: The Ant Hill Mob - Ativo - 2ª volta - v: 25km/h
+8º: Penelope Pitstop - Ativo - 2ª volta - v: 25km/h
+9º: Professor Pat Pending - Ativo - 2ª volta - v: 25km/h
+10º: The Slag Brothers - Ativo - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 3
+
+8º: Penelope Pitstop
+9º: Professor Pat Pending
+Eliminado: The Slag Brothers
+
+------------------------------------------
+Tempo: 72000ms
+
+1º: The Gruesome Twosome - Ativo - 3ª volta - v: 50km/h
+2º: Peter Perfect - Ativo - 3ª volta - v: 50km/h
+3º: Dick Dastardly and Muttley - Ativo - 3ª volta - v: 25km/h
+4º: Sergeant Blast and Private Meekly - Ativo - 3ª volta - v: 25km/h
+5º: Lazy Luke and Blubber Bear - Ativo - 3ª volta - v: 25km/h
+6º: The Red Max - Ativo - 3ª volta - v: 25km/h
+7º: The Ant Hill Mob - Ativo - 2ª volta - v: 25km/h
+8º: Penelope Pitstop - Ativo - 2ª volta - v: 25km/h
+9º: Professor Pat Pending - Ativo - 2ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 4
+
+7º: The Ant Hill Mob
+8º: Professor Pat Pending
+9º: Penelope Pitstop
+
+------------------------------------------
+Tempo: 86400ms
+
+1º: The Gruesome Twosome - Ativo - 4ª volta - v: 25km/h
+2º: Peter Perfect - Ativo - 4ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Ativo - 3ª volta - v: 25km/h
+4º: Sergeant Blast and Private Meekly - Ativo - 3ª volta - v: 25km/h
+5º: Lazy Luke and Blubber Bear - Ativo - 3ª volta - v: 25km/h
+6º: The Red Max - Ativo - 3ª volta - v: 25km/h
+7º: The Ant Hill Mob - Ativo - 3ª volta - v: 50km/h
+8º: Professor Pat Pending - Ativo - 3ª volta - v: 50km/h
+9º: Penelope Pitstop - Ativo - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 100800ms
+
+1º: The Gruesome Twosome - Ativo - 4ª volta - v: 25km/h
+2º: Peter Perfect - Ativo - 4ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Ativo - 3ª volta - v: 25km/h
+4º: Sergeant Blast and Private Meekly - Ativo - 3ª volta - v: 25km/h
+5º: Lazy Luke and Blubber Bear - Ativo - 3ª volta - v: 25km/h
+6º: The Red Max - Ativo - 3ª volta - v: 25km/h
+7º: The Ant Hill Mob - Ativo - 3ª volta - v: 50km/h
+8º: Professor Pat Pending - Ativo - 3ª volta - v: 50km/h
+9º: Penelope Pitstop - Ativo - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 115200ms
+
+1º: The Gruesome Twosome - Ativo - 4ª volta - v: 25km/h
+2º: Peter Perfect - Ativo - 4ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Ativo - 4ª volta - v: 50km/h
+4º: Professor Pat Pending - Ativo - 4ª volta - v: 50km/h
+5º: Lazy Luke and Blubber Bear - Ativo - 4ª volta - v: 50km/h
+6º: The Ant Hill Mob - Ativo - 4ª volta - v: 25km/h
+7º: Sergeant Blast and Private Meekly - Ativo - 4ª volta - v: 25km/h
+8º: The Red Max - Ativo - 4ª volta - v: 25km/h
+9º: Penelope Pitstop - Ativo - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 5
+
+7º: Sergeant Blast and Private Meekly
+8º: The Red Max
+Eliminado: Penelope Pitstop
+
+------------------------------------------
+Tempo: 129600ms
+
+1º: Professor Pat Pending - Ativo - 5ª volta - v: 50km/h
+2º: Dick Dastardly and Muttley - Ativo - 5ª volta - v: 25km/h
+3º: Peter Perfect - Ativo - 5ª volta - v: 50km/h
+4º: Lazy Luke and Blubber Bear - Ativo - 5ª volta - v: 50km/h
+5º: The Gruesome Twosome - Ativo - 5ª volta - v: 25km/h
+6º: The Ant Hill Mob - Ativo - 4ª volta - v: 25km/h
+7º: Sergeant Blast and Private Meekly - Ativo - 4ª volta - v: 25km/h
+8º: The Red Max - Ativo - 4ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 144000ms
+
+1º: Professor Pat Pending - Ativo - 5ª volta - v: 50km/h
+2º: Peter Perfect - Ativo - 5ª volta - v: 50km/h
+3º: Lazy Luke and Blubber Bear - Ativo - 5ª volta - v: 50km/h
+4º: Dick Dastardly and Muttley - Ativo - 5ª volta - v: 25km/h
+5º: The Gruesome Twosome - Ativo - 5ª volta - v: 25km/h
+6º: The Ant Hill Mob - Ativo - 4ª volta - v: 25km/h
+7º: Sergeant Blast and Private Meekly - Ativo - 4ª volta - v: 25km/h
+8º: The Red Max - Ativo - 4ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 6
+
+6º: The Ant Hill Mob
+7º: Sergeant Blast and Private Meekly
+8º: The Red Max
+
+------------------------------------------
+Tempo: 158400ms
+
+1º: Professor Pat Pending - Ativo - 6ª volta - v: 50km/h
+2º: Peter Perfect - Ativo - 6ª volta - v: 50km/h
+3º: Lazy Luke and Blubber Bear - Ativo - 6ª volta - v: 50km/h
+4º: Dick Dastardly and Muttley - Ativo - 5ª volta - v: 25km/h
+5º: The Gruesome Twosome - Ativo - 5ª volta - v: 25km/h
+6º: The Ant Hill Mob - Ativo - 5ª volta - v: 50km/h
+7º: Sergeant Blast and Private Meekly - Ativo - 5ª volta - v: 50km/h
+8º: The Red Max - Ativo - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 7
+
+6º: The Gruesome Twosome
+7º: Sergeant Blast and Private Meekly
+Eliminado: The Red Max
+
+------------------------------------------
+Tempo: 172800ms
+
+1º: Professor Pat Pending - Ativo - 7ª volta - v: 50km/h
+2º: Peter Perfect - Ativo - 7ª volta - v: 50km/h
+3º: Lazy Luke and Blubber Bear - Ativo - 7ª volta - v: 25km/h
+4º: The Ant Hill Mob - Ativo - 6ª volta - v: 50km/h
+5º: Dick Dastardly and Muttley - Ativo - 6ª volta - v: 50km/h
+6º: Sergeant Blast and Private Meekly - Ativo - 6ª volta - v: 50km/h
+7º: The Gruesome Twosome - Ativo - 6ª volta - v: 50km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 187200ms
+
+1º: Professor Pat Pending - Ativo - 7ª volta - v: 50km/h
+2º: Peter Perfect - Ativo - 7ª volta - v: 50km/h
+3º: Lazy Luke and Blubber Bear - Ativo - 7ª volta - v: 25km/h
+4º: The Ant Hill Mob - Ativo - 6ª volta - v: 50km/h
+5º: Dick Dastardly and Muttley - Ativo - 6ª volta - v: 50km/h
+6º: Sergeant Blast and Private Meekly - Ativo - 6ª volta - v: 50km/h
+7º: The Gruesome Twosome - Ativo - 6ª volta - v: 50km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 8
+
+5º: The Ant Hill Mob
+6º: Sergeant Blast and Private Meekly
+7º: The Gruesome Twosome
+
+------------------------------------------
+Tempo: 201600ms
+
+1º: Professor Pat Pending - Ativo - 8ª volta - v: 50km/h
+2º: Peter Perfect - Ativo - 8ª volta - v: 25km/h
+3º: Lazy Luke and Blubber Bear - Ativo - 7ª volta - v: 25km/h
+4º: Dick Dastardly and Muttley - Ativo - 7ª volta - v: 50km/h
+5º: Sergeant Blast and Private Meekly - Ativo - 7ª volta - v: 50km/h
+6º: The Ant Hill Mob - Ativo - 7ª volta - v: 25km/h
+7º: The Gruesome Twosome - Ativo - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 9
+
+5º: Lazy Luke and Blubber Bear
+6º: The Ant Hill Mob
+Eliminado: The Gruesome Twosome
+
+------------------------------------------
+Tempo: 216000ms
+
+1º: Professor Pat Pending - Ativo - 9ª volta - v: 25km/h
+2º: Peter Perfect - Ativo - 8ª volta - v: 25km/h
+3º: Sergeant Blast and Private Meekly - Ativo - 8ª volta - v: 50km/h
+4º: Dick Dastardly and Muttley - Ativo - 8ª volta - v: 25km/h
+5º: Lazy Luke and Blubber Bear - Ativo - 8ª volta - v: 25km/h
+6º: The Ant Hill Mob - Ativo - 7ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 230400ms
+
+1º: Professor Pat Pending - Ativo - 9ª volta - v: 25km/h
+2º: Peter Perfect - Ativo - 8ª volta - v: 25km/h
+3º: Sergeant Blast and Private Meekly - Ativo - 8ª volta - v: 50km/h
+4º: Dick Dastardly and Muttley - Ativo - 8ª volta - v: 25km/h
+5º: Lazy Luke and Blubber Bear - Ativo - 8ª volta - v: 25km/h
+6º: The Ant Hill Mob - Ativo - 7ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 244800ms
+
+1º: Professor Pat Pending - Ativo - 9ª volta - v: 25km/h
+2º: Peter Perfect - Ativo - 9ª volta - v: 50km/h
+3º: Sergeant Blast and Private Meekly - Ativo - 9ª volta - v: 25km/h
+4º: Dick Dastardly and Muttley - Ativo - 8ª volta - v: 25km/h
+5º: Lazy Luke and Blubber Bear - Ativo - 8ª volta - v: 25km/h
+6º: The Ant Hill Mob - Ativo - 8ª volta - v: 50km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 10
+
+4º: The Ant Hill Mob
+5º: Dick Dastardly and Muttley
+6º: Lazy Luke and Blubber Bear
+
+------------------------------------------
+Tempo: 259200ms
+
+1º: Professor Pat Pending - Ativo - 10ª volta - v: 25km/h
+2º: Peter Perfect - Ativo - 10ª volta - v: 25km/h
+3º: Sergeant Blast and Private Meekly - Ativo - 9ª volta - v: 25km/h
+4º: The Ant Hill Mob - Ativo - 9ª volta - v: 25km/h
+5º: Dick Dastardly and Muttley - Ativo - 9ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Ativo - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 273600ms
+
+1º: Professor Pat Pending - Ativo - 10ª volta - v: 25km/h
+2º: Peter Perfect - Ativo - 10ª volta - v: 25km/h
+3º: Sergeant Blast and Private Meekly - Ativo - 9ª volta - v: 25km/h
+4º: The Ant Hill Mob - Ativo - 9ª volta - v: 25km/h
+5º: Dick Dastardly and Muttley - Ativo - 9ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Ativo - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 288000ms
+
+1º: Professor Pat Pending - Ativo - 10ª volta - v: 25km/h
+2º: Peter Perfect - Ativo - 10ª volta - v: 25km/h
+3º: Sergeant Blast and Private Meekly - Ativo - 10ª volta - v: 25km/h
+4º: The Ant Hill Mob - Ativo - 9ª volta - v: 25km/h
+5º: Dick Dastardly and Muttley - Ativo - 9ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Ativo - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 11
+
+4º: The Ant Hill Mob
+5º: Dick Dastardly and Muttley
+Eliminado: Lazy Luke and Blubber Bear
+
+------------------------------------------
+Tempo: 302400ms
+
+1º: Professor Pat Pending - Ativo - 11ª volta - v: 25km/h
+2º: Peter Perfect - Ativo - 11ª volta - v: 25km/h
+3º: Sergeant Blast and Private Meekly - Ativo - 10ª volta - v: 25km/h
+4º: The Ant Hill Mob - Ativo - 10ª volta - v: 50km/h
+5º: Dick Dastardly and Muttley - Ativo - 10ª volta - v: 50km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 316800ms
+
+1º: Professor Pat Pending - Ativo - 11ª volta - v: 25km/h
+2º: Peter Perfect - Ativo - 11ª volta - v: 25km/h
+3º: Sergeant Blast and Private Meekly - Ativo - 10ª volta - v: 25km/h
+4º: The Ant Hill Mob - Ativo - 10ª volta - v: 50km/h
+5º: Dick Dastardly and Muttley - Ativo - 10ª volta - v: 50km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 331200ms
+
+1º: Professor Pat Pending - Ativo - 11ª volta - v: 25km/h
+2º: Peter Perfect - Ativo - 11ª volta - v: 25km/h
+3º: The Ant Hill Mob - Ativo - 11ª volta - v: 50km/h
+4º: Dick Dastardly and Muttley - Ativo - 11ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Ativo - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 12
+
+3º: Peter Perfect
+4º: Dick Dastardly and Muttley
+5º: Sergeant Blast and Private Meekly
+
+------------------------------------------
+Tempo: 345600ms
+
+1º: The Ant Hill Mob - Ativo - 12ª volta - v: 50km/h
+2º: Professor Pat Pending - Ativo - 12ª volta - v: 25km/h
+3º: Peter Perfect - Ativo - 12ª volta - v: 25km/h
+4º: Dick Dastardly and Muttley - Ativo - 11ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Ativo - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 360000ms
+
+1º: The Ant Hill Mob - Ativo - 12ª volta - v: 50km/h
+2º: Professor Pat Pending - Ativo - 12ª volta - v: 25km/h
+3º: Peter Perfect - Ativo - 12ª volta - v: 25km/h
+4º: Dick Dastardly and Muttley - Ativo - 11ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Ativo - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 13
+
+3º: Peter Perfect
+4º: Dick Dastardly and Muttley
+Eliminado: Sergeant Blast and Private Meekly
+
+------------------------------------------
+Tempo: 374400ms
+
+1º: The Ant Hill Mob - Ativo - 13ª volta - v: 25km/h
+2º: Professor Pat Pending - Ativo - 12ª volta - v: 25km/h
+3º: Peter Perfect - Ativo - 12ª volta - v: 25km/h
+4º: Dick Dastardly and Muttley - Ativo - 12ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Eliminado - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 388800ms
+
+1º: The Ant Hill Mob - Ativo - 13ª volta - v: 25km/h
+2º: Professor Pat Pending - Ativo - 13ª volta - v: 25km/h
+3º: Peter Perfect - Ativo - 13ª volta - v: 25km/h
+4º: Dick Dastardly and Muttley - Ativo - 12ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Eliminado - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 403200ms
+
+1º: The Ant Hill Mob - Ativo - 13ª volta - v: 25km/h
+2º: Professor Pat Pending - Ativo - 13ª volta - v: 25km/h
+3º: Peter Perfect - Ativo - 13ª volta - v: 25km/h
+4º: Dick Dastardly and Muttley - Ativo - 12ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Eliminado - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 14
+
+2º: Professor Pat Pending
+3º: Peter Perfect
+4º: Dick Dastardly and Muttley
+
+------------------------------------------
+Tempo: 417600ms
+
+1º: The Ant Hill Mob - Ativo - 14ª volta - v: 50km/h
+2º: Professor Pat Pending - Ativo - 13ª volta - v: 25km/h
+3º: Peter Perfect - Ativo - 13ª volta - v: 25km/h
+4º: Dick Dastardly and Muttley - Ativo - 13ª volta - v: 50km/h
+5º: Sergeant Blast and Private Meekly - Eliminado - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 15
+
+2º: Dick Dastardly and Muttley
+3º: Professor Pat Pending
+Eliminado: Peter Perfect
+
+------------------------------------------
+Tempo: 432000ms
+
+1º: The Ant Hill Mob - Ativo - 15ª volta - v: 50km/h
+2º: Professor Pat Pending - Ativo - 14ª volta - v: 50km/h
+3º: Dick Dastardly and Muttley - Ativo - 14ª volta - v: 25km/h
+4º: Peter Perfect - Eliminado - 13ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Eliminado - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 446400ms
+
+1º: The Ant Hill Mob - Ativo - 15ª volta - v: 50km/h
+2º: Professor Pat Pending - Ativo - 14ª volta - v: 50km/h
+3º: Dick Dastardly and Muttley - Ativo - 14ª volta - v: 25km/h
+4º: Peter Perfect - Eliminado - 13ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Eliminado - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 16
+
+1º: The Ant Hill Mob
+2º: Professor Pat Pending
+3º: Dick Dastardly and Muttley
+
+------------------------------------------
+Tempo: 460800ms
+
+1º: The Ant Hill Mob - Ativo - 16ª volta - v: 50km/h
+2º: Professor Pat Pending - Ativo - 15ª volta - v: 50km/h
+3º: Dick Dastardly and Muttley - Ativo - 14ª volta - v: 25km/h
+4º: Peter Perfect - Eliminado - 13ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Eliminado - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 17
+
+1º: The Ant Hill Mob
+2º: Professor Pat Pending
+Eliminado: Dick Dastardly and Muttley
+
+------------------------------------------
+Tempo: 475200ms
+
+1º: The Ant Hill Mob - Ativo - 17ª volta - v: 50km/h
+2º: Professor Pat Pending - Ativo - 16ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Eliminado - 14ª volta - v: 25km/h
+4º: Peter Perfect - Eliminado - 13ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Eliminado - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+Tempo: 489600ms
+
+1º: The Ant Hill Mob - Ativo - 17ª volta - v: 50km/h
+2º: Professor Pat Pending - Ativo - 16ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Eliminado - 14ª volta - v: 25km/h
+4º: Peter Perfect - Eliminado - 13ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Eliminado - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 18
+
+1º: The Ant Hill Mob
+2º: Professor Pat Pending
+
+------------------------------------------
+Tempo: 504000ms
+
+1º: The Ant Hill Mob - Ativo - 18ª volta - v: 50km/h
+2º: Professor Pat Pending - Ativo - 16ª volta - v: 25km/h
+3º: Dick Dastardly and Muttley - Eliminado - 14ª volta - v: 25km/h
+4º: Peter Perfect - Eliminado - 13ª volta - v: 25km/h
+5º: Sergeant Blast and Private Meekly - Eliminado - 11ª volta - v: 25km/h
+6º: Lazy Luke and Blubber Bear - Eliminado - 9ª volta - v: 25km/h
+7º: The Gruesome Twosome - Eliminado - 7ª volta - v: 25km/h
+8º: The Red Max - Eliminado - 5ª volta - v: 25km/h
+9º: Penelope Pitstop - Eliminado - 3ª volta - v: 25km/h
+10º: The Slag Brothers - Eliminado - 2ª volta - v: 25km/h
+
+------------------------------------------
+
+3 últimos da volta 19
+
+1º: The Ant Hill Mob
+Eliminado: Professor Pat Pending
+
+------------------------------------------
+Tempo: 517104ms
+
+MEDALHA DE OURO
+1º: The Ant Hill Mob - 19ª volta
+
+MEDALHA DE PRATA
+2º: Professor Pat Pending - 16ª volta
+
+MEDALHA DE BRONZE
+3º: Dick Dastardly and Muttley - 14ª volta
+
+4º: Peter Perfect - 13ª volta
+5º: Sergeant Blast and Private Meekly - 11ª volta
+6º: Lazy Luke and Blubber Bear - 9ª volta
+7º: The Gruesome Twosome - 7ª volta
+8º: The Red Max - 5ª volta
+9º: Penelope Pitstop - 3ª volta
+10º: The Slag Brothers - 2ª volta
