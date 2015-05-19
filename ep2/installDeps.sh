@@ -1,5 +1,6 @@
 #/bin/bash
 
+origin=$('pwd')
 mkdir /tmp/go
 cd /tmp/go
 
@@ -15,7 +16,10 @@ else
 fi
 
 cd -
-echo "export PATH=$PATH:/usr/local/go/bin" ~/.profile
+echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
 source ~/.profile
 
 go run hello.go
+
+cd $origin
+go install github.com/jaodsilv/ep2

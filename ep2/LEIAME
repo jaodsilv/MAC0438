@@ -1,6 +1,6 @@
-Para instalar as depencias basta seguir as intruções.
+= Para instalar as depencias basta seguir as intruções.
 
-1 - Rode o Script "installDeps" se estiver usando linux com terminal bash/zsh.
+1 - Rode o Script "installDeps.sh" se estiver usando linux com terminal bash/zsh. Serve para a maioria das SOs em x86_64 e i686.
 
 OU
 
@@ -17,12 +17,12 @@ n - adicione "export GOPATH=$PASTA_ONDE_ESTA_O_EP_DO_JOAO" ao seu .profile, a me
 
 
 
-Para compilar:
+= Para compilar:
 
 $ go install github.com/jaodsilv/ep2
 
 
 
-Para executar:
+= Para executar:
 
 $ $GOPATH/bin/ep2
