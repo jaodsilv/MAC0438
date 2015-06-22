@@ -13,23 +13,23 @@ import (
 // Meu tipo de barreira
 type Barreira func(i int64) bool
 
+var printPrecision = 100000
+
 var precision, x, cos *big.Rat
+var xString string
 var fat []*big.Int //fat[i] = 2i!
 var pot []*big.Rat //pot[i] = x^(2i)
 var pexp int
 var f, d, s bool
-var turnos = int64(0);
 
 // variável global usada pelas barreiras
 var stop = false
 
 // Canais são a forma padrão de sincronização em Go
-var cstop chan bool
 var sumPart chan *big.Rat
 
-
 func potx2(turno, q int64) {
-	for i := int64(q)*(turno-1); i < int64(q)*turno; i++ {
+	for i := q*(turno-1); i < q*turno; i++ {
 		pot = append(pot, new(big.Rat).Mul(pot[i], x))
 		pot[i+1].Mul(pot[i+1], x)
 	}
@@ -41,20 +41,36 @@ func fat2(turno, q int64) {
 	}
 }
 
+func potx2C(turno, q int64, c chan bool) {
+	potx2(turno, q)
+	c <- true
+}
+
+func fat2C(turno, q int64, c chan bool) {
+	fat2(turno, q)
+	c <- true
+}
+
 // Barreiras iguais as do EP1, agora usando closures
 func newBarreira(q int64) Barreira {
 	mutex := &sync.Mutex{}
 	cond  := sync.NewCond(mutex)
 	count := int64(0)
+	s := false
 
 	return func(i int64) bool {
 		mutex.Lock()
+		
   		count++
   		if count == q+1 {
 	    	count = 0
+
+	    	// A closure garante que todos que entram na barreira saem com o mesmo valor de s
+	    	s = !stop
+
 	  		if d {
 	  			fmt.Printf("%d\n", i)
-	  			fmt.Println("Cos(", x, ") = ", cos.FloatString(pexp))
+	  			fmt.Println("Cos(", xString, ") = ", cos.FloatString(printPrecision))
 	  		}
 	    	cond.Broadcast()
 	  	} else {
@@ -63,8 +79,9 @@ func newBarreira(q int64) Barreira {
 	    	}
 	    	cond.Wait()
 	  	}
+
 	  	mutex.Unlock()
-	  	return !stop	
+	  	return s
 	}
 }
 
@@ -74,26 +91,21 @@ func calcula(index, q int64, barreira Barreira) {
 
 	//(−1)^n * x^(2n) / (2n)!
 	// O começo do for serve como barreira e sinal se deve continuar no loop
-	for true {
-		// Outra barreira só para garantir que eles não vão pedir loop duas vezes
-		if !barreira(index) {
-			break
-		}
-
+	for barreira(index) {
 		sum = big.NewRat(int64(0), int64(1))
 		for i := int64(0); i < q; i++ {
 			elem := new(big.Rat)
 			elem.SetInt(fat[n])
 			elem.Quo(pot[n], elem)
 			if !f && elem.Cmp(precision) == -1 {
-				cstop <- true
+				stop = true
 			}
 			neg := (n%2 == 1)
 			if neg {
 				elem.Neg(elem)
 			}
 			sum.Add(sum, elem)
-			n += int64(q)
+			n += q
 		}
 		// espera todos terminarem, espera sinal da thread principal
 		sumPart <- sum
@@ -113,6 +125,8 @@ func main() {
 	if q == 0 {
 		q = runtime.NumCPU()
 	}
+	q64 := int64(q)
+	q2 := q64*q64
 
 	// f ou m
 	f = (flag.Arg(1) == "f")
@@ -123,12 +137,13 @@ func main() {
 		fmt.Printf("Error on third argument: %s\n", err)
 		return
 	}
-	precision := new(big.Rat)
+	precision = new(big.Rat)
 	precision.SetString(fmt.Sprintf("1e-%d", pexp))
 
 	// Undefined precision float
 	x = new(big.Rat)
-	_, success := x.SetString(flag.Arg(3))
+	xString = flag.Arg(3)
+	_, success := x.SetString(xString)
 	if !success {
 		fmt.Printf("Error parsing fourth argument\n")
 		return
@@ -143,12 +158,11 @@ func main() {
 	}
 
 
-	barreira := newBarreira(int64(q))
+	barreira := newBarreira(q64)
 	
 	sumPart = make(chan *big.Rat)
-	cstop = make(chan bool)
+	fatpot := make(chan bool)
 
-	cont := true
 	turno := int64(0)
 	cos = big.NewRat(int64(0), int64(1))
 	fat = []*big.Int{big.NewInt(int64(1))}
@@ -157,44 +171,42 @@ func main() {
 	if !s {
 		cosOld := big.NewRat(int64(0), int64(1))
 
-		fat2(1, int64(q*q))
-		potx2(1, int64(q*q))
+		go fat2C(1, q2, fatpot)
+		go potx2C(1, q2, fatpot)
 
 
-		for i := 0; i < q; i++ {
-			go calcula(int64(i), int64(q), barreira)
+		for i := int64(0); i < q64; i++ {
+			go calcula(i, q64, barreira)
 		}
 
-		for cont {
+		for !stop {
 			turno++
+			
+			// espera o cálculo de fatorial e de potencias
+			<-fatpot
+			<-fatpot
 
 			// thread principal também entra na barreira e também entra na conta
-			if !barreira(int64(q)) {
+			if !barreira(q64) {
 				turno--
 				break
 			}
+
+			go fat2C(turno+1, q2, fatpot)
+			go potx2C(turno+1, q2, fatpot)
 		
 			//espera todos terminarem
-			for i := 0; i < q; i++ {
+			for i := int64(0); i < q64; i++ {
 				cos.Add(cos, <-sumPart)
 			}
 
+			// espera o cálculo de potência e 
 
 			if f && cosOld.Sub(cos, cosOld).Abs(cosOld).Cmp(precision) == -1 {
 				stop = true
 			} else {
 				cosOld.Set(cos)
 			}
-
-			// A cada turno só chega aqui depois de receber todos as mensagens de sumPart
-			select {
-				case <-cstop:
-					cont = false
-					stop = true
-				default:
-			}
-			fat2(turno+1, int64(q*q))
-			potx2(turno+1, int64(q*q))
 		}
 	} else {
 		elem := new(big.Rat)
@@ -213,7 +225,7 @@ func main() {
 			}
 			cos.Add(cos, elem)
 			turno++
-			fmt.Println("Cos(", x, ") = ", cos.FloatString(pexp))
+			fmt.Println("Cos(", xString, ") = ", cos.FloatString(printPrecision))
 		}
 	}
 
@@ -222,5 +234,5 @@ func main() {
 	} else {
 		fmt.Println("Número de Termos: ", turno)
 	}
-	fmt.Println("Cos(", x, ") = ", cos.FloatString(pexp))
+	fmt.Println("Cos(", xString, ") = ", cos.FloatString(printPrecision))
 }

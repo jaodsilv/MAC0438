@@ -22,4 +22,4 @@ source ~/.profile
 go run hello.go
 
 cd $origin
-go install github.com/jaodsilv/cos
+go install github.com/jaodsilv/ep3

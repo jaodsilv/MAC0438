@@ -1,0 +1,128 @@
+= Para instalar as depencias basta seguir as intruções.
+
+1 - Rode o Script "installDeps.sh" se estiver usando linux com terminal bash/zsh. Serve para a maioria das SOs em x86_64 e i686.
+
+OU
+
+1 - Baixe a versão do compilar para sua máquina em https://golang.org/dl/
+2 - Siga as intruções em http://golang.org/doc/install
+
+OU
+
+1 - Baixe a versão do compilar para sua máquina em https://golang.org/dl/
+2 - Descompacte para "/usr/local": tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
+3 - adicione "export PATH=$PATH:/usr/local/go/bin" ao seu .profile
+
+n - adicione "export GOPATH=$PASTA_ONDE_ESTA_O_EP_DO_JOAO" ao seu .profile, a mesma que se encontra este arquivo.
+
+
+
+= Para compilar:
+
+$ go install github.com/jaodsilv/ep3
+
+
+
+= Para executar:
+
+$ $GOPATH/bin/ep3 <arquivo> <R> <U|P>
+
+= Implementação do monitor
+
+É composto por duas partes.
+O core é o conteúdo do arquivo monitor.go, que contém as funções básicas internas do monitor.
+A outra é monitorFilosofo.go, que contém os métodos específicos do problema jantar dos filósofos.
+
+== monitor.go
+  O que está neste arquivo são as funções básicas internas do monitor.
+  Foram implementadas apenas wait, signal, signal_all e empty como privadas.
+  Em Go, funções, métodos e variáveis começando com letra minúscula não são exportadas
+
+=== struct Monitor
+  contém um mapa de variáveis de condição para cada chave
+
+=== struct cond
+  representa uma variável de condição
+  é composta por um Mutex, um booleando para representar que ele está ocupado e um vetor de canais que representa a fila de espera.
+
+=== empty(cv)
+  apenas verifica se a fila está vazia
+
+=== wait(cv)
+  1. verifica se a cond existe, se não existe cria
+  2. fecha o Mutex
+  3. Se a condição esteja ocupada ou a fila não estiver vazia então
+  4.    cria um novo canal e adiciona ele no final da fila
+  5.    libera o Mutex
+  6.    espera o sinal pelo canal criado
+  7.    fecha o Mutex
+  8. marca a condição como ocupada
+  9. se auto-remove do começo da fila
+  10.libera o Mutex
+
+=== signal(cv)
+  1. verifica se a cond existe, se não existe cria
+  2. fecha o Mutex
+  3. marca a condição como desocupada
+  4. se a fila não estiver vazia então
+  5.    manda o sinal para o primeiro da fila que ele pode prosseguir
+  6. libera o Mutex
+
+=== newMonitor(...string)
+  Inicializa a parte interna do monitor, inicializando as variáveis de condição com as chaves que são passadas como parâmetro.
+
+== monitorFilosofo.go
+  Aqui contém o código específico do problema dos filósofos.
+
+=== Init(n, pratos, pesoTotal int32, uniforme bool, p *printer.Printer) *FilosofoMonitor
+  1. Inicializa as funções de rand para gerar números aleatórios
+  2. Inicializa as chaves dos garfos, que são strings com o número do garfo.
+  3. Instancia o monitor de fato, com as variáveis do monitor.
+  4. Abre o restaurante(inicializa o garcom)
+  5. Devolve o monitor
+
+=== garcom()
+  Enquanto houver comida o garcom servirá os pratos, usei essa estratégia apenas pq gostei do nome e poderia fazer o trocadilho (e porque fica elegante).
+  1. Enquanto houver comida
+  2.    Serve prato para alguém
+  3. Enquanto houverem clientes
+  4.    Avisa que a comida acabou
+
+=== come
+  Só espera o tempo de comer
+
+=== estados
+  Enum de estados ao tentar comer.
+
+=== Come(comidas já ingeridas, peso, indice do filósofo)
+  Além de Init a única função exportada para fora do package.
+  Representa a intenção de comer de um filósofo.
+  1. Se for modo P e já comeu a quota do turno e ainda tem comida
+  2.    Percebe que está cheio
+  3. Se a comida acabou
+  4.    Percebe que a comida acabou
+  5. caso contrário
+  6.    pega os garfos
+  7.    come
+  8.    solta os garfos
+  9.    Percebe que comeu
+
+=== getGarfoVar(número de filósofos, índice)
+  Transforma o índice do garfo em sua chave para o monitor
+
+=== pegaGarfos(índice)
+  1. Pega a chave do garfo da esquerda
+  2. Pega a chave do garfo da direita
+  // Linhas 3 a 8 garantem que não haja deadlock e que não haja starvation
+  3. Se for um filósofo de índice par
+  4.    wait no garfo da esqueda
+  5.    wait no garfo da direita
+  6. Caso contrário
+  7.    wait no garfo da direita
+  8.    wait no garfo da esquerda
+
+=== soltaGarfos(índice)
+  1. Pega a chave do garfo da esquerda
+  2. Pega a chave do garfo da direita
+  3. signal no garfo da esquerda
+  4. signal no garfo da direita

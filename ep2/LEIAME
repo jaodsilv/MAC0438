@@ -19,10 +19,10 @@ n - adicione "export GOPATH=$PASTA_ONDE_ESTA_O_EP_DO_JOAO" ao seu .profile, a me
 
 = Para compilar:
 
-$ go install github.com/jaodsilv/ep2
+$ go install github.com/jaodsilv/cos
 
 
 
 = Para executar:
 
-$ $GOPATH/bin/ep2
+$ $GOPATH/bin/cos
